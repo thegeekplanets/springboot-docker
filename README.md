@@ -2,7 +2,6 @@
 
 <p id="description">This Application will create a docker image for a spring boot application. then we'll deploy and manage the docker images on docker hub.</p>
 
-  
 <h2>🧐 Features</h2>
 
 Here are some of the project's best features:
