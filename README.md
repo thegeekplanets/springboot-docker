@@ -46,29 +46,29 @@ docker stop
 <p>6. Docker login</p>
 
 ```
-docker login -u harikanure007@gmail.com -p XXXX docker.io
+docker login -u <DOCKER_USERNAME> -p <DOCKER_PASSWORD> docker.io
 ```
 
 <p>7. Docker image tag</p>
 
 ```
-docker tag springboot-docker:latest harikanure007/springboot-docker
+docker tag springboot-docker:latest <DOCKER_USERNAME>/springboot-docker
 ```
 
 <p>8. Docker push</p>
 
 ```
-docker push harikanure007/springboot-docker
+docker push <DOCKER_USERNAME>/springboot-docker
 ```
 
 <p>9. Docker pull image</p>
 
 ```
-docker pull harikanure007/springboot-docker
+docker pull <DOCKER_USERNAME>/springboot-docker
 ```
 
 <p>10. Docker run</p>
 
 ```
-docker run -d -p 8080:8080 harikanure007/springboot-docker
+docker run -d -p 8080:8080 <DOCKER_USERNAME>/springboot-docker
 ```
